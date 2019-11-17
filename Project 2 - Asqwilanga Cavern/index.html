@@ -1,0 +1,23 @@
+<!--Anthony Goossens-->
+<!--CWID: 890208523-->
+<!--Project 2 Caves-->
+<!--In Index HTML the user has the option to input a custom cave point and findest the shortest path-->
+<!--By simply typing in your desired coordinates in the "Starting Point" tab you can set any custom point-->
+<!--Please note that some paths are not possible to find, or simply my code doesnt know what to do :(-->
+
+Team GOOS <br>Asqwilanga Cavern<br><br>
+
+Custom Cave (OPTIONAL): <br>
+Starting Point: ( <input type="number" name="sPoint" id="sxPoint" min="0" max="100">, <input type="number" name="sPoint" id="syPoint" min="0" max="100">, <input type="number" name="sPoint" id="szPoint" min="0" max="100"> )<br>
+
+Target Point: ( <input type="number" name="tPoint" id="txPoint" min="0" max="100">, <input type="number" name="tyPoint" id="tyPoint" min="0" max="100">, <input type="number" name="tPoint" id="tzPoint" min="0" max="100"> )<br>
+
+Max Points: ( <input type="number" name="tPoint" id="mxPoint" min="0" max="100">, <input type="number" name="myPoint" id="myPoint" min="0" max="100">, <input type="number" name="tPoint" id="mzPoint" min="0" max="100"> )<br><br>
+
+<script src="./index.js"></script>
+<button id="userEntered" onclick="startPath()">Find Path</button><br>
+<button id="default" onclick="startDefaultPath()">Use Default Path</button>
+<br>
+<label id="display"></label><br>
+
+
