@@ -1,7 +1,7 @@
 # cpsc-335-04-Project-2-Asqwilanga-Cavern
   Cavern Number: 335-04
   Project Number and Name: Project 2 and Asqwilanga Cavern
-  Team Name and Members: GOOS, Anthony Goossens
+  Team Name and Members: OMA, Anthony Goossens
   
   Intro:
       So, this is a an algorithm visualization task.  Specifically, your task is to display the steps (and state of progress) in a search to find a path from an extremal cave room to the “most-central” cave room of the great Asgwilanga Caverns, which consists of a number of cave room subsystems with cave rooms connected by directional causeways (i.e., the causeways allow travel only in one direction, typically by a big jump off a descending section ledge across a fallen gap – for which some blame the grey wizard).
